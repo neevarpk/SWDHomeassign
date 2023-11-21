@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" parallel="classes" thread-count="4">
+  <test name="MyTest">
+    <classes>
+      <class name="week5.day1.ProjectSpecificMethod"/>
+      <class name="week5.day1.MergeLead"/>
+      <class name="week5.day1.EditLead"/>
+      <class name="week5.day1.DuplicateLead"/>
+ 
+    </classes>
+  </test>
+</suite>
